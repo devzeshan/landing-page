@@ -1,7 +1,7 @@
 .first-section {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-start;
   background-color: #1F2937;
 }
 
@@ -35,29 +35,36 @@
   font-size: 48px;
   font-weight: bold;
   font-family: system-ui;
-  padding-left: 200px;
-  padding-right: 1300px;
+  padding-right: 1500px;
   margin-top: 130px;
 }
 
 .awesome-subtext {
   font-size: 18px;
   color: #adaeb0;
-  padding-left: 200px;
   margin-top: -30px;
-  padding-right: 1200px;
+  margin-bottom: 10px;
+  padding-right: 1400px;
   font-family: system-ui;
 }
 
 .button-standard {
   background-color: #2882F6;
+  min-width: 40px;
+  min-height: 30px;
   border: white;
   color: white;
-  padding: 12px 39px;
   text-align: center;
   text-decoration: none;
+  margin-left: 200px;
   /* display: inline-block; */
-  padding-left: 220px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.no-image {
+  max-width: 33%;
+  max-height: 33%;
+  margin-right: 300px;
+  padding-left: -200px;
 }
