@@ -1,37 +1,197 @@
-.firstSection {
-  display: flex;
-  justify-content: center;
-  background-color: #1F2937;
-  margin: 0 auto;
-  width: 100%;
-  border: 2px solid red;
+.completeWebsite {
+}
+
+.headerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .headerLogo {
-  color: white;
-  font-size: 24px;
-  font-family: system-ui;
-  border: 2px solid red;
-  text-align: start;
-  margin-right: 30%;
+    font-size: 24px;
+    color: #F9FAf8;
+    width: 500px;
 }
 
 .headerLink {
-  color: #E5E7EB;
-  font-size: 18px;
-  font-family: system-ui;
-  border: 2px solid red;
-  text-align: start;
-  margin-right: 3%;
-  padding-right: 2%;
-  margin-top: 1.7%;
+    font-size: 18px;
+    color: #c7cbd0;
 }
 
-.secondSection {
-  display: flex;
-  justify-content: center;
-  background-color: #1F2937;
-  margin: 0 auto;
-  width: 100%;
-  border: 2px solid red;
+.siteOverview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 600px;
+}
+
+.siteBlurb {
+    max-width: 34%;
+
+}
+
+.blurbTitle {
+    font-size: 48px;
+    color: #F9FAf8;
+    font-weight: extra-bold;
+}
+
+.blurbSubtext {
+    font-size: 18px;
+    color: #c7cbd0;
+}
+
+.signupButton {
+    border-radius: 15px;
+    background-color: #3882F6;
+    color: #F9FAf8;
+    font-size: 18px;
+    width: 120px;
+    font-weight: bold;
+    padding: 0.2em;
+    border: 2px solid white;
+
+
+}
+
+
+.siteImage {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+
+
+
+
+
+
+.randInfoTitleSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAf8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.randInfoTitle {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 4px solid #3b82f6;
+    border-radius: 25px;
+}
+
+.illusSubtextSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.illusSubtext {
+    flex-direction: row;
+    color: #747b87;
+    font-size: 18px;
+    width: 210px;
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+.thorQuoteSec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thorQuote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 1;
+    color: #1F2937;
+    width: 900px;
+    padding: 1em;
+}
+
+.thorQuoteSec2 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #e5e7eb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thorSig {
+    width: 440px;
+}
+
+
+
+
+
+
+.callActionSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAf8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 290px;
+}
+
+.callActionBlurb {
+    background-color: #3882F6;
+    color: white;
+    width: 700px;
+    padding-left: 20px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.forButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    height: 95px;
+    width: 135px;
+    border-radius: 0px 15px 15px 0px;
+
+}
+
+.signupButton2 {
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: #F9FAf8;
+    font-size: 18px;
+    width: 120px;
+    font-weight: bold;
+    padding: 0.2em;
 }
